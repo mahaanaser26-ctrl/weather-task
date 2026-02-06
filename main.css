@@ -59,5 +59,50 @@ header h1{
     transform: translate(-60%, -60%);
     color: #fff;
 }
+.search-box{
+    position: absolute;
+    top:30%;
+    left: 51%;
+    transform: translate(-62% ,-62%);
+    width: 500px;
+    max-width: 90%;
+    padding: 15px 17px;
+    border-radius: 18px;
+    outline: none;
+    
+
+}
+.search-input{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    width: 500px;
+    padding: 14px 18px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 14px;
+  
+
+}
+.search-input input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+   
+    font-size: 15px;
+}
+.search-input ::placeholder{
+    color: #fff;
+}
+.btn{
+    color: #fff;
+    background: linear-gradient(135deg, #4f5bd5, #5f2c82);
+       width: 105px;
+    height: 47px;
+    border-radius: 13px;
+    position: absolute;
+    top: 23%;
+    left: 106%;
+}
 
 
