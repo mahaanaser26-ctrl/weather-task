@@ -20,7 +20,7 @@ header h1{
     font-weight: 600;
     position: absolute;
     top:5%;
-    left: 5%;
+    left: 6%;
 
 }
 .fa-sun {
@@ -54,14 +54,14 @@ header h1{
     }
     h2 {
     position: absolute;
-    top: 20%;      
+    top: 14%;
     left: 50%;     
     transform: translate(-60%, -60%);
     color: #fff;
 }
 .search-box{
     position: absolute;
-    top:30%;
+    top:23%;
     left: 51%;
     transform: translate(-62% ,-62%);
     width: 500px;
@@ -104,5 +104,62 @@ header h1{
     top: 23%;
     left: 106%;
 }
+.weather-card{
+     width: 45%;
+    height: 25%;
+    padding: 30px;
+    background: linear-gradient(135deg, #4f5bd5, #5f2c82);
+    border-radius: 10px;
+    position: absolute;
+    top: 28%;
+    left: 10%;
+}
+.sun-icon{
+   font-size:36px;
+    position: absolute;
+    top: 45%;
+    left: 79%;
+}
+.temp{
+       font-family: sans-serif;
+    font-size: 47px;
+    position: absolute;
+    top: 38%;
+    left: 86%;
+    
+}
+.text{
+    position: absolute;
+    top:38%;
+    left:2%;
+}
+.text2{
+     position: absolute;
+    top:52%;
+    left:2%;
+}
+ .details {
+        display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 85px;
+    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    left: 10%;}
 
+     .detail-box {
+      background: rgba(255,255,255,0.1);
+      padding: 10px;
+     border-radius: 12px;
+     font-size: 14px;
+     width: 160%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: start;
+    }
+   
 
