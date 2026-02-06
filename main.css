@@ -213,3 +213,50 @@ header h1{
     opacity: 0.8;
     font-size: 13px;
 }
+.Hourly-forecast{
+      height: 486px;
+    width: 364px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+    padding: 14px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 28%;
+    left: 56%;
+    overflow:auto;
+}
+.forecast-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.day-btn{
+    background: rgba(255,255,255,0.15);
+    border: none;
+    border-radius: 10px;
+    padding: 6px 14px;
+    color: #fff;
+    font-size: 13px;
+
+
+}
+.hour{
+      height: 77%;
+    width: 100%;
+     background: rgba(255,255,255,0.08);
+    border-radius: 18px;
+     padding: 14px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 210px;
+}
+.text-4{
+      
+  text-align: start;
+  font-size: 16px;;
+}
